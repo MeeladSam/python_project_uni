@@ -1,5 +1,1 @@
-# python_project_uni
-
-What this code does is compress the photo:
-u put the photo link from your PC 
-image_path = r"C:\Users\Home Pc\Desktop\PHOTO\5D2402BF-9BB4-4593-B7EF-EDD4AA104DC0.png"
+You can use this Python code to reduce the size of a picture on your computer. Giving it the path to your image—for example, image_path = r"C:\Users\Home Pc\Desktop\PHOTO\your_image.png"—is all that is required. In order to determine how well an image can be compressed, the program examines the image and determines how similar the pixels are next to one another. The image is then automatically reduced in size using JPEG compression. Additionally, it displays the compression ratio, the size of the original and compressed files, and the amount of redundant image. In order to view the outcome, it finally opens the compressed image. It's a straightforward method of reducing picture sizes while monitoring the amount of compression that can be achieved.
